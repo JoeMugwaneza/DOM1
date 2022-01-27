@@ -1,6 +1,6 @@
 const output = document.querySelector('.output');
 const game = {'mouseover':0, 'mouseenter':0, 'mouseout':0,'mousemove':0, 'wheel':0};
-const val1 = document.querySelector('.test');
+// const val1 = document.querySelector('.test');
 
 output.addEventListener('mouseover', (e) =>{
     updateProp(e.type);
